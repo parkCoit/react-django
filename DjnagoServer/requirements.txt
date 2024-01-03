@@ -1,0 +1,6 @@
+django-cors-headers
+djangorestframework
+mysql-connector
+mysqlclient
+SQLAlchemy==1.4.39
+riotwatcher
