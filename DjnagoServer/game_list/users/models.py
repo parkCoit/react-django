@@ -4,8 +4,8 @@ from django.db import models
 # Create your models here.
 
 class Users(models.Model):
-    puuid = models.AutoField(primary_key=True, max_length=30)
-    gameName = models.TextField(max_length=30)
+    nickname = models.AutoField(primary_key=True)
+    puuid = models.TextField(max_length=30)
     tagLine = models.TextField(max_length=30)
     id = models.TextField(max_length=100)
     profileIconId = models.TextField(max_length=30)

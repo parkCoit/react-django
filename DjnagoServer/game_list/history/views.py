@@ -7,6 +7,6 @@ from rest_framework.response import Response
 
 
 @api_view(['GET'])
-def history(request) :
-   print("hi")
-   return Response({'history' : request.data})
+def history(request):
+    print(request.data)
+    return Response({'history': 'hsssh'})

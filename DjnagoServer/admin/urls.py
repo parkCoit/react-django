@@ -21,7 +21,7 @@ from admin.views import hello
 
 urlpatterns = [
     path('', hello),
-    path('game_list/history', include('gamelist.history.urls')),
-    path('game_list/users', include('gamelist.users.urls')),
+    path('gamelist/history', include('game_list.history.urls')),
+    path('gamelist/users', include('game_list.users.urls')),
     path('admin/', admin.site.urls),
 ]

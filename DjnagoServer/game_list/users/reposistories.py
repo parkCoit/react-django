@@ -1,8 +1,8 @@
 from django.http import JsonResponse
 from rest_framework.response import Response
 
-from gamelist.users.models import Users
-from gamelist.users.serializers import UsersSerializer
+from game_list.users.models import Users
+from game_list.users.serializers import UsersSerializer
 
 
 class UsersRepository(object):

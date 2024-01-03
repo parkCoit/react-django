@@ -1,8 +1,8 @@
 from django.http import JsonResponse
 from rest_framework.response import Response
 
-from gamelist.history.models import History
-from gamelist.history.serializers import HistorySerializer
+from game_list.history.models import History
+from game_list.history.serializers import HistorySerializer
 
 
 class HistoryRepository(object):
